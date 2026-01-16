@@ -10,11 +10,11 @@ const ContactTable = () => {
                     <th className="py-3 px-6">Created at</th>                </tr>
             </thead>
             <tbody>
-               <td></td>
-               <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td className="py-3 px-6 "></td>
+                <td className="py-3 px-6"></td>
+                <td className="py-3 px-6"></td>
+                <td className="py-3 px-6"></td>
+                <td className="py-3 px-6"></td>
             </tbody>
         </table>
     );
