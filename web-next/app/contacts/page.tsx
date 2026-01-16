@@ -1,6 +1,9 @@
 const Contact = () => {
     return (
-        <div></div>
+        <divcclassName="max-w-screen-md mx-auto p-5">
+        
+            
+        </div>
     );
 
 }
