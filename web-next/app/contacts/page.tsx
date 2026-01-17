@@ -1,6 +1,6 @@
 import ContactTable from "../components/contact-table";
 import Search from "../components/search";
-import { CreateButton } from "@/app/components/buttons"
+import { CreateButton } from "../components/buttons"
 
 const Contact = () => {
   return (
@@ -10,7 +10,7 @@ const Contact = () => {
          <CreateButton />
       </div>
 
-      <ContactTable />
+         
     </div>
   );
 };
