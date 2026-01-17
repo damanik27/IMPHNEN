@@ -30,7 +30,10 @@ const ContactTable = async ({
             <td className="py-3 px-6">{contact.name}</td>
             <td className="py-3 px-6">{contact.phone}</td>
             <td className="py-3 px-6">
-            </td>
+            </td className="flex justify-center gap-1 py-3">
+            <EditButton/>
+            <DeleteButton
+
           </tr>
         ))}
       </tbody>
