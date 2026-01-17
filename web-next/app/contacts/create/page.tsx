@@ -1,8 +1,8 @@
-import React from 'react'
-
 const createContactpage = () => {
   return (
-    <div>createContactpage</div>
+    <div>createContactpage
+        
+    </div>
   )
 }
 
