@@ -9,7 +9,17 @@ const CreateForm = () => {
           <label
             htmlFor="name"
             className="block text-sm font-medium text-gray-900"
-          ></label>
+          >
+             Full Name
+          </label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+            placeholder="Full Name..."
+          />
+          </label>
         </div>
       </form>
     </div>
