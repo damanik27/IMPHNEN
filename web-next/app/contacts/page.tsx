@@ -1,12 +1,16 @@
-import CreateForm from "@/components/create-form";
-
-const CreateContactPage = () => {
+import ContactTable from "@/components/contact-table";
+import Search from "@/components/search";
+import { CreateButton } from "@/components/buttons";
+const Contacts = () => {
   return (
-    <div className="max-w-md mx-auto mt-5">
-      <h1 className="text-2xl text-center mb-2">Add New Contact</h1>
-      <CreateForm />
+    <div className="max-w-screen-md mx-auto mt-5">
+      <div className="flex items-center justify-between gap-1 mb-5">
+        <Search />
+        <CreateButton />
+      </div>
+    <ContactTable />
     </div>
   );
 };
 
-export default CreateContactPage;
+export default Contacts;
