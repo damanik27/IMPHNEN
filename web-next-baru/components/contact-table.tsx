@@ -1,4 +1,7 @@
-const ContactTable = () => {
+import { getContacts } from "@/app/lib/data";
+
+const ContactTable = async () => {
+  const contacts = await getContacts();
   return (
 <table className="w-full text-sm text-left text-gray-500">
       <thead className="text-sm text-gray-700 uppercase bg-gray-50">
