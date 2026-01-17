@@ -1,8 +1,8 @@
 import React from 'react'
 
-const page = () => {
+const createContactpage = () => {
   return (
-    <div>page</div>
+    <div>createContactpage</div>
   )
 }
 
