@@ -1,9 +1,19 @@
 import React from 'react'
 
-const create-form = () => {
+const CreateForm = () => {
+  
   return (
-    <div>create-form</div>
+    <div>
+      <form action={formAction}>
+        <div className="mb-5">
+          <label
+            htmlFor="name"
+            className="block text-sm font-medium text-gray-900"
+          ></label>
+        </div>
+      </form>
+    </div>
   )
 }
 
-export default create-form
+export default CreateForm
